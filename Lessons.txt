@@ -39,3 +39,5 @@ select author, sum(price*amount) as 'Стоимость',
     sum(round((price*amount/(1+0.18)),2)) as 'Стоимость_без_НДС'
 from book
 group by author;
+
+1.3.5
